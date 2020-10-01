@@ -12,23 +12,23 @@ if (hourNow > 18) {
 } else if (hourNow > 0) {
   greeting = 'Good Morning, ';
 } else {
-  greeting = 'Welcome'
+  greeting = 'Welcome';
 }
 
 
 // User greeting
-var customerName = prompt("What is your name?")
-document.getElementById('userGreeting').innerHTML = 
-greeting + '<br>' + customerName
+var customerName = prompt("What is your name?");
+document.getElementById('userGreeting').innerHTML =
+greeting + '<br>' + customerName;
 
 
 // Question 1
-var userLive = prompt('Do you live in Seattle?').toLowerCase()
+var userLive = prompt('Do you live in Seattle?').toLowerCase();
 
-if ((userLive == 'yes') || (userLive == 'y')) {
+if (userLive == 'yes' || userLive == 'y') {
   alert('You answered: Yes');
   console.log('Do you live in Seattle? input accepted as yes/y');
-} else if ((userLive == 'no') || (userLive == 'n')) {
+} else if (userLive == 'no' || userLive == 'n') {
   alert('You answered: No');
   console.log('Do you live in Seattle? input accepted as no/n');
 } else {
@@ -38,12 +38,12 @@ if ((userLive == 'yes') || (userLive == 'y')) {
 
 
 // Question 2
-var userWorkout = prompt('Do you like to work out?').toLowerCase()
+var userWorkout = prompt('Do you like to work out?').toLowerCase();
 
-if ((userWorkout == 'yes') || (userWorkout == 'y')) {
+if (userWorkout == 'yes' || userWorkout == 'y') {
   alert('You answered: Yes');
   console.log('Do you like to work out? input accepted as yes/y');
-} else if ((userWorkout == 'no' || userWorkout == 'n')) {
+} else if (userWorkout == 'no' || userWorkout == 'n') {
   alert('You answered: No');
   console.log('Do you like to work out? input accepted as no/n');
 } else {
@@ -53,12 +53,12 @@ if ((userWorkout == 'yes') || (userWorkout == 'y')) {
 
 
 // Question 3
-var userRain = prompt('Do you like rain?').toLowerCase()
+var userRain = prompt('Do you like rain?').toLowerCase();
 
-if ((userRain == 'yes') || (userRain == 'y')) {
+if (userRain == 'yes' || userRain == 'y') {
   alert('You answered: Yes');
   console.log('Do you like rain? input accepted as yes/y');
-} else if ((userRain == 'no' || userRain == 'n')) {
+} else if (userRain == 'no' || userRain == 'n') {
   alert('You answered: No');
   console.log('Do you like rain? input accepted as no/n');
 } else {
@@ -68,12 +68,12 @@ if ((userRain == 'yes') || (userRain == 'y')) {
 
 
 // Question 4
-var userSpicy = prompt('Do you like spicy food?').toLowerCase()
+var userSpicy = prompt('Do you like spicy food?').toLowerCase();
 
-if ((userSpicy == 'yes') || (userSpicy == 'y')) {
+if (userSpicy == 'yes' || userSpicy == 'y') {
   alert('You answered: Yes');
   console.log('Do you like spicy food? input accepted as yes/y');
-} else if ((userSpicy == 'no' || userSpicy == 'n')) {
+} else if (userSpicy == 'no' || userSpicy == 'n') {
   alert('You answered: No');
   console.log('Do you like spicy food? input accepted as no/n');
 } else {
@@ -83,12 +83,12 @@ if ((userSpicy == 'yes') || (userSpicy == 'y')) {
 
 
 // Question 5
-var userPet = prompt('Do you have a pet?').toLowerCase()
+var userPet = prompt('Do you have a pet?').toLowerCase();
 
-if ((userPet == 'yes') || (userPet == 'y')) {
+if (userPet == 'yes' || userPet == 'y') {
   alert('You answered: Yes');
   console.log('Do you have a pet? input accepted as yes/y');
-} else if ((userPet == 'no' || userPet == 'n')) {
+} else if (userPet == 'no' || userPet == 'n') {
   alert('You answered: No');
   console.log('Do you have a pet? input accepted as no/n');
 } else {
