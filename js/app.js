@@ -122,4 +122,5 @@ function playGuessingGame() {
       alert('Invalid input');
     }
   }
+  alert('The correct answer was: ' + randomNumber)
 }
