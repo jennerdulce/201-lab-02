@@ -122,5 +122,4 @@ function playGuessingGame() {
       alert('Invalid input');
     }
   }
-  alert('You did not guess the number. YOU LOSE!!!!!')
 }
