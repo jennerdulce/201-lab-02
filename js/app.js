@@ -102,11 +102,11 @@ if (userPet == 'yes' || userPet == 'y') {
 // number guessing game
 
 function playGuessingGame() {
-  var i = 0;
+  var tries = 0;
   var randomNumber = Math.floor(Math.random() * 10) + 1;  // returns a random integer from 1 to 10
-  
 
-  while (i < 4) {
+  while (tries < 4) {
+    
     var userGuess = prompt('Try to guess a number between 1 and 10');
 
     if (userGuess == randomNumber) {
@@ -114,13 +114,17 @@ function playGuessingGame() {
       break;
     } else if (userGuess > randomNumber) {
       alert('You guessed too high!');
-      i++;
+      tries++;
     } else if (userGuess < randomNumber){
       alert('You guessed too low!');
-      i++;
+      tries++;
     } else {
       alert('Invalid input');
     }
+
+    if (tries == 4 && userGuess !== randomNumber) {
+      alert('YOU LOSE!!');
+    }
   }
-  alert('The correct answer was: ' + randomNumber)
+  
 }
