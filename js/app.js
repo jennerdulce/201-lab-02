@@ -123,7 +123,7 @@ function playGuessingGame() {
     }
 
     if (tries == 4 && userGuess !== randomNumber) {
-      alert('YOU LOSE!!');
+      alert('The correct answer was: ' + randomNumber + 'YOU LOSE!!');
     }
   }
   
