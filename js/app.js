@@ -57,7 +57,7 @@ if (userMilitary === 'yes' || userMilitary === 'y') {
 }
 
 // Question 4
-var userSpicy = prompt('Do I like heights?').toLowerCase();
+var userHeights = prompt('Do I like heights?').toLowerCase();
 
 if (userHeights === 'yes' || userHeights === 'y') {
   alert('No no no no I absolutely hate heights!');
