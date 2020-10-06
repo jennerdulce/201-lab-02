@@ -125,14 +125,14 @@ var answeredCorrectly = false;
 var correctAnswers = ['lofi', 'rock', 'rap', 'r&b', 'pop'];
 var guessMusic = prompt('Try and guess a music genre that I listen to').toLowerCase();
 
-while (attemptsRemaining > 0 && !answeredCorrectly) { // ! answeredCorrectly = !true == false
+while (attemptsRemaining > 0 && !answeredCorrectly) {
   attemptsRemaining--;
 
-  // guessMusic prompts through forloop every time
+  // guessMusic prompts through for loop every time
   for (var i = 0; i < correctAnswers.length; i++) {
 
     // if they guess the correct answer
-    if (correctAnswers[i] === guessMusic){
+    if (correctAnswers[i] === guessMusic){ // rap
       answeredCorrectly = true;
       alert(`Yes, I do listen to ${guessMusic}`);
       points++;
@@ -141,7 +141,7 @@ while (attemptsRemaining > 0 && !answeredCorrectly) { // ! answeredCorrectly = !
 
   // if they  guess the wrong answer
   if (attemptsRemaining > 0 && !answeredCorrectly) {
-    guessMusic = prompt(`No, I do not listen to ${guessMusic}`);
+    guessMusic = prompt(`No, I do not listen to ${guessMusic}. Guess again.`).toLowerCase();
   }
 
   // if they run out of guesses
