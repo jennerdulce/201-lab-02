@@ -23,7 +23,6 @@ greeting + '<br>' + customerName;
 
 
 // QUESTION GAME========================
-
 var points = 0;
 
 // Question 1
@@ -92,7 +91,6 @@ alert(`Now you know a little bit about me! Nice to meet you, ${customerName}!`);
 
 
 // Question 6 number guessing game
-
 var tries = 0;
 var randomNumber = Math.floor(Math.random() * 10) + 1;
 
@@ -119,10 +117,9 @@ while (tries < 4) {
 }
 
 // Question 7
-
 var attemptsRemaining = 6;
 var answeredCorrectly = false;
-var correctAnswers = ['lofi', 'rock', 'rap', 'r&b', 'pop'];
+var correctAnswers = ['lofi', 'rock', 'rap', 'r&b', 'pop']; // 5
 var guessMusic = prompt('Try and guess a music genre that I listen to').toLowerCase();
 
 while (attemptsRemaining > 0 && !answeredCorrectly) {
