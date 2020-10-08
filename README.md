@@ -42,7 +42,9 @@ This was definitly challenging. I handled the first few assignments fairly easy 
 # LAB - 04
 ### Mentions and Collaborations
 - Anthony Turinski
+
 I was the **Driver** on: https://github.com/Terransky/201-lab-02
+
 I was the **Navigator** on: https://github.com/jennerdulce/201-lab-02
 
 ### Reflection
