@@ -37,3 +37,12 @@ I designed this webpage to give visitors a little bit of who I am and what I am 
 
 ### Reflection
 This was definitly challenging. I handled the first few assignments fairly easy with minimal help, but this one was different.. Spent the whole day 5+ hours on trying to figure this problem out. I wouldn't say it was frustrating, it was challenging. I liked working with others and bouncing ideas off each other. I liked talking things over, breaking things down, and seeing what worked and didn't worked. I'm beginning to understand the process of handling tasks and I a liking it. As I began my coding journey, I would always get frustrated, railed up, and sweaty when I came across challenges. I learned to keep my cool and embrace the challenge!
+
+
+# LAB - 04
+### Mentions and Collaborations
+- Anthony Turinski
+I was the **Driver** on: https://github.com/Terransky/201-lab-02
+I was the **Navigator** on: https://github.com/jennerdulce/201-lab-02
+
+### Reflection
