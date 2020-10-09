@@ -1,16 +1,26 @@
 body {
   font-family: Helvetica;
   width: 90%;
-  background-color: #8A9A5B;
+  /* background-color: #8A9A5B; */
   height: 960;
   padding: 30px;
   margin: 50px auto;
   text-align: center;
 }
 
+/* header img {
+  position: relative;
+} */
+
+nav ul {
+  margin-top: 30px;
+}
+
 #list-name {
   text-decoration: underline;
-  font-size: 24px
+  font-size: 24px;
+  text-align: center;
+  margin: auto;
 }
 
 img {
@@ -32,25 +42,42 @@ section {
 }
 
 h2 {
-  background-color: #FEFCD7;
+  background-color: #63B3ED;
   font-size: 28px;
   border-radius: 100px;
   padding: 5px;
-  box-shadow: 3px 5px 15px rgba(0, 0, 0, .25)
+  /* box-shadow: 3px 5px 15px rgba(0, 0, 0, .25) */
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.2)
 }
 
 p, ul, ol {
-  margin-top: 11px;
-  background-color: #FEFCD7;
+  margin-top: 11px;;
   border-radius: 10px;
   padding: 10px;
   word-spacing: 2px;
   line-height: 18px;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.2)
 }
 
 ol {
+  position: relative;
+  left: 35%;
   list-style-type: decimal;
   list-style-position: inside; /* important */
-  text-align: center;
+  /* text-align: left; */
+  width:30%
 }
 
+main li {
+  text-align: left
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
